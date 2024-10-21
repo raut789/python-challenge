@@ -30,7 +30,7 @@ with open(file_to_load) as election_data:
         total_votes += 1
 
         # Get the candidate's name from the row
-        candidate_name = row[2]  # Assuming candidate's name is in the third column
+        candidate_name = row[2] 
 
         # If the candidate is not already in the candidate list, add them
         if candidate_name not in candidates:
