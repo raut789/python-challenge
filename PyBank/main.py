@@ -37,7 +37,6 @@ with open(file_to_load, encoding='UTF-8') as financial_data:
         # Set previous value for the next iteration
         previous_value = current_value
 
-# These print statements should be outside the loop
 print(f"Total Months  : {total_months}")
 print(f"Total Net : {total_net}")
 
